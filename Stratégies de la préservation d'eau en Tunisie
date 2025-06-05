@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TUNWATER</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #007bff, #d1e8ff);
+      margin: 0;
+      padding: 0;
+      color: #003366;
+      text-align: center;
+    }
+
+    h1 {
+      padding: 20px;
+      font-size: 2.2em;
+      color: #002a5c;
+    }
+
+    p {
+      margin: 20px auto;
+      max-width: 800px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 20px 0;
+    }
+  </style>
+<nav>
+<ul>
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Page%20d'accueil.html"> Page d'accueil </a></li>         
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Introduction.html"> Introduction  </a></li>
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Enjeux%20hydriques%20tunisiens.html"> Enjeux hydriques tunisiens  </a></li>        
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Conclusion-%20Appel%20%C3%A0%20l'action.html"> Conclusion-Appel à l'action </a></li>    
+</ul>
+</nav>
+</head>
+<body>
+  <h1>Stratégies pour la préservation de l'eau en Tunisie</h1>
+
+  <p>Il y a plusieurs solutions et stratégies qui existent pour lutter contre le gaspillage de l’eau en Tunisie.</p>
+  <img src="https://cdnfr.africanmanager.com/wp-content/uploads/2024/05/traitement-eaux-usees-enjeu-essentiel-couv-1.jpeg" alt="Traitement des eaux usées">
+
+  <p>La diminution des fuites dans les réseaux de distribution d’eau potable pouvant atteindre 30% dans certains endroits.</p>
+  <img src="https://www.webdo.tn/uploads/news/9/2025-04/fea2d131b2652a788e2bc978374cdcb7.webp" alt="Réseaux de distribution">
+
+  <p>L’encouragement des comportements écoresponsables auprès des Tunisiens aide à limiter la consommation excessive.</p>
+  <img src="https://www.sonede.com.tn/wp-content/uploads/2023/06/Ecogeste-Fuite.gif" alt="Geste écologique">
+
+  <p>Créer des campagnes de sensibilisation sur l’importance de la protection de l’eau et mettre en place une tarification appropriée pour inciter à une consommation responsable.</p>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0O8t6MG0OEbmT2oRSfUD3Ds0G5lN8pO93UQ&s" alt="Sensibilisation à l'eau">
+
+  <script>
+    alert("L'eau est un grand trésor !");
+  </script>
+</body>
+</html>
