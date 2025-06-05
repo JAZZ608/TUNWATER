@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TUNWATER - Enjeux hydriques en Tunisie</title>
+    <style>
+        /* Arrière-plan dégradé respectant l'image */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #007bff, #00c4ff); /* Bleu foncé vers bleu clair */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            color: #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        img {
+            width: 80%;
+            max-width: 600px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #ff9900;
+        }
+    </style>
+<nav>
+<ul>
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Page%20d'accueil.html"> Page d'accueil  </a></li>        
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Introduction.html"> Introduction  </a></li>
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Strat%C3%A9gies%20de%20la%20pr%C3%A9servation%20d'eau%20en%20Tunisie.html"> Stratégies pour la préservation de l'eau en Tunisie </a></li>        
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Conclusion-%20Appel%20%C3%A0%20l'action.html"> Conclusion-Appel à l'action </a></li>    
+</ul>
+</nav>
+</head>
+<body>
+    <div class="container">
+        <h1>TUNWATER - Enjeux hydriques en Tunisie</h1>
+        <p>Il y a plusieurs enjeux qui influencent gravement l’eau en Tunisie.</p>
+
+        <h2>Le réchauffement climatique</h2>
+        <p>Ce phénomène crée la réduction des précipitations et l’accroissement des températures ainsi que de l’évaporation.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLNo7dgXN0cUHs5qaJfcWQ5ZiVVPkjVLtEhA&s" alt="Réchauffement climatique">
+
+        <h2>L'utilisation excessive des nappes phréatiques</h2>
+        <p>Une exploitation anarchique des nappes phréatiques entraîne leur surexploitation et la salinisation progressive des eaux souterraines.</p>
+        <img src="https://kapitalis.com/tunisie/wp-content/uploads/2024/05/Nappes-Phreatique-Sud-Tunisie.jpg" alt="Surexploitation des nappes phréatiques">
+
+        <h2>L'industrialisation et les eaux usées</h2>
+        <p>La pollution causée par les déchets industriels et les eaux usées non traitées aggrave la dégradation des ressources hydriques disponibles.</p>
+        <img src="https://focus.courrierinternational.com/2023/12/15/0/0/1920/1280/1200/630/60/0/6872b4b_1702641035955-01012016-poletti-tunisia-06651-1.jpg" alt="Pollution industrielle en Tunisie">
+
+        <button onclick="afficherMessage()">Clique ici pour en savoir plus !</button>
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function afficherMessage() {
+            document.getElementById("message").textContent = "L'eau est une ressource précieuse, protégeons-la ! 💧";
+        }
+    </script>
+</body>
+</html>
