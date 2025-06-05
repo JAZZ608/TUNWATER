@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TUNWATER</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #007BFF, #ffffff);
+            color: #333;
+            padding: 40px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            color: #004080;
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #0056b3;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        #messageButton {
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #messageButton:hover {
+            background-color: #003d80;
+        }
+
+        #motivMessage {
+            margin-top: 15px;
+            font-style: italic;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Page d'accueil de TUNWATER</h1>
+    </header>
+<nav>
+<ul>
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Introduction.html"> Introduction  </a></li>
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Enjeux%20hydriques%20tunisiens.html"> Enjeux hydriques tunisiens  </a></li>        
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Strat%C3%A9gies%20de%20la%20pr%C3%A9servation%20d'eau%20en%20Tunisie.html"> Stratégies pour la préservation de l'eau en Tunisie </a></li>        
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Conclusion-%20Appel%20%C3%A0%20l'action.html"> Conclusion-Appel à l'action </a></li>    
+</ul>
+</nav>
+    <section>
+        <h2>Introduction</h2>
+        <p>Bienvenue sur la page d'accueil de TUNWATER, une initiative pour sensibiliser à la gestion de l'eau en Tunisie.</p>
+
+        <h2>Principaux enjeux hydriques</h2>
+        <p>La Tunisie fait face à une pénurie croissante d’eau en raison des changements climatiques, de la surexploitation et du stress hydrique structurel.</p>
+
+        <h2>Stratégie pour la préservation de l'eau</h2>
+        <p>Notre stratégie repose sur l’éducation, la modernisation des systèmes d’irrigation, le recyclage des eaux usées et l’optimisation de la consommation domestique.</p>
+
+        <h2>Conclusion</h2>
+        <p>Préserver l’eau, c’est garantir l’avenir. Ensemble, contribuons à un futur plus durable pour la Tunisie.</p>
+
+        <button id="messageButton">Afficher un message motivant</button>
+        <div id="motivMessage"></div>
+    </section>
+
+    <footer>
+        &copy; 2025 TUNWATER - Tous droits réservés
+    </footer>
+
+    <script>
+        // Message dans la console à l'ouverture
+        console.log("Bienvenue sur le site TUNWATER !");
+
+        // Alerte de bienvenue au chargement
+        window.addEventListener('load', () => {
+            alert("Bienvenue sur la page d'accueil de TUNWATER !");
+        });
+
+        // Interaction : bouton pour afficher un message motivant
+        const button = document.getElementById('messageButton');
+        const messageDiv = document.getElementById('motivMessage');
+
+        button.addEventListener('click', () => {
+            messageDiv.textContent = "Chaque goutte compte, préservons notre eau pour demain.";
+        });
+document.querySelectorAll("nav ul li a").forEach(link => {
+    link.addEventListener("click", function(event) {
+        event.preventDefault();
+        window.location.href = this.href;
+    });
+});        
+</script>
+</body>
+</html>
