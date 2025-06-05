@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Introduction de TUNWATER </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #0275d8;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0275d8;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Les principaux barrages hydrauliques tunisiens</h1>
+    </header>
+<nav>
+<ul>
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Page%20d'accueil.html"> Page d'accueil  </a></li>
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Enjeux%20hydriques%20tunisiens.html"> Enjeux hydriques tunisiens  </a></li>        
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Strat%C3%A9gies%20de%20la%20pr%C3%A9servation%20d'eau%20en%20Tunisie.html"> Stratégies pour la préservation de l'eau en Tunisie </a></li>        
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Conclusion-%20Appel%20%C3%A0%20l'action.html"> Conclusion-Appel à l'action </a></li>    
+</ul>
+</nav>
+    <section>
+        <p>La gestion de l'eau est un enjeu majeur en Tunisie. Voici les principaux barrages situés dans la région Nord du pays :</p>
+        <table id="barragesTable">
+          
+            <tbody>
+                <!-- Les données seront ajoutées dynamiquement -->
+            </tbody>
+        </table>
+    <h2> Répartition de l'eau en Tunisie </h2>
+    <p> L’eau en Tunisie est répartie en deux catégories, soit 2,7 milliards de m³ eaux de surface et 2,1 milliards de m³ eaux souterraines, également il y a beaucoup plus de ressources hydriques au nord qu’au sud du pays.
+
+L’agriculture utilise environ 80% de l’eau, l’eau potable et usage domestique environ 15% et l’industrie et le tourisme environ 5%. En fin de compte, l’agriculture utilise la quantité la plus importante d’eau en Tunisie pour les cultures des plantes et des végétaux.
+</p>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const barrages = [
+                { nom: "Mellègue", gouvernorat: "Le Kef", superficie: 10300, capacite: 250, debitMax: 350 },
+                { nom: "Sidi Salem", gouvernorat: "Béja", superficie: 6550, capacite: 555, debitMax: 8600 },
+                { nom: "Oued El Kbir", gouvernorat: "Jendouba", superficie: 5000, capacite: 180, debitMax: 800 },
+                { nom: "Sejenane", gouvernorat: "Bizerte", superficie: 4400, capacite: 75, debitMax: 600 },
+                { nom: "Sidi Saad", gouvernorat: "Siliana", superficie: 1500, capacite: 160, debitMax: 400 }
+            ];
+
+            const tbody = document.querySelector("#barragesTable tbody");
+            barrages.forEach(barrage => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${barrage.nom}</td>
+                    <td>${barrage.gouvernorat}</td>
+                    <td>${barrage.superficie}</td>
+                    <td>${barrage.capacite}</td>
+                    <td>${barrage.debitMax}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        });
+    
+    </script>
+</body>
+</html>
