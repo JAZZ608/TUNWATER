@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TUNWATER - Appel à l'action</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #007bff, #66ccff);
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 12px;
+      padding: 30px;
+      margin: 40px auto;
+      width: 85%;
+      max-width: 800px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .image-section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 30px 0;
+    }
+
+    .image-section img {
+      max-width: 280px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    }
+
+    button {
+      background-color: #28a745;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+<nav>
+<ul>
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Page%20d'accueil.html"> Page d'accueil </a></li>    
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Introduction.html"> Introduction  </a></li>
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Enjeux%20hydriques%20tunisiens.html"> Enjeux hydriques tunisiens  </a></li>        
+<li><a href="file:///C:/Users/CHERIF%20JAZIRI/OneDrive/Bureau/Strat%C3%A9gies%20de%20la%20pr%C3%A9servation%20d'eau%20en%20Tunisie.html"> Stratégies pour la préservation de l'eau en Tunisie </a></li>        
+</ul>
+</nav>
+</head>
+<body>
+  <div class="container">
+    <h1>La conclusion : Appel à l'action</h1>
+
+    <p>En tant qu'adolescents tunisiens entre 14 et 18 ans, vous êtes les maîtres du futur de notre pays, la Tunisie.</p>
+    <p>Nous devons tous rester unis pour lutter contre le gaspillage de l'eau et valoriser le patrimoine hydrique tunisien.</p>
+
+    <div class="image-section">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg" alt="Drapeau de la Tunisie" />
+      <img src="https://www.ville-fonbeauzard.fr/_object/ametys-internal%253Asites/fonbeauzard/ametys-internal%253Acontents/pour-economiser-l-eau-adoptons-les-bons-gestes-actualite/_attribute/illustration/image/economies-d-eau_max300x300.jpg?objectId=defaultWebContent://8189e003-1490-412b-beea-de4e52b7f95a" alt="Économies d'eau" />
+    </div>
+
+    <button onclick="showMessage()">Protégeons notre eau</button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("Protégeons notre eau, elle est précieuse pour l’avenir !");
+    }
+  </script>
+</body>
+</html>
